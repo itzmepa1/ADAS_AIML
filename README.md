@@ -50,7 +50,7 @@ pip install -r requirements.txt
    ```
 3. Run the main script:
    ```bash
-   python main.py
+   python adas_aiml.py
    ```
 
 ## Results & Visualizations
