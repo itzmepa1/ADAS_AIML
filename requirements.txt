@@ -1,0 +1,14 @@
+numpy
+matplotlib
+open3d
+opencv-python
+pillow
+torch
+torchvision
+torchaudio
+ultralytics
+nuscenes-devkit
+pandas
+tqdm
+pyquaternion
+scipy
