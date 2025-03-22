@@ -15,7 +15,7 @@ This project focuses on developing an Advanced Driver Assistance System (ADAS) u
 
 ## Dataset
 
-This project uses the **nuScenes mini dataset**, which provides real-world sensor data for autonomous driving.
+This project uses the **nuScenes mini dataset**, which provides real-world sensor data for autonomous driving and also the dataset should be downloaded and placed inside the project folder to ensure the code runs smoothly.
 
 - **Download Dataset:** [nuScenes mini dataset](https://www.nuscenes.org/download)
 - **Dataset Includes:**
