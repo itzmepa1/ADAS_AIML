@@ -63,6 +63,5 @@ pip install -r requirements.txt
 
 ---
 
-For any queries, please reach out via GitHub Issues.
 
 
