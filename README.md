@@ -46,7 +46,7 @@ pip install -r requirements.txt
    ```
 2. Navigate to the project directory:
    ```bash
-   cd ADAS-Multi-Sensor-Fusion
+   cd ADAS_AIML
    ```
 3. Run the main script:
    ```bash
