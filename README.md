@@ -60,9 +60,6 @@ pip install -r requirements.txt
 - LiDAR data is visualized in 3D for better spatial understanding.
 - Collision warnings and alerts are triggered based on real-time sensor data.
 
-## License
-
-This project is open-source and available under the MIT License.
 
 ---
 
