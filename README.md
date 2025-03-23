@@ -64,7 +64,7 @@ pip install -r requirements.txt
 ---
 
 
-## **Improvements to Increase Efficiency 🚀**
+## **Improvements to Increase Efficiency **
 
 ### **1. Sensor Fusion Optimization**
 **Current Issue:**  
@@ -94,5 +94,5 @@ Processing full-frame LiDAR point clouds or high-resolution images slows down pr
 🔹 **Voxelization** can be used to reduce LiDAR point cloud size while preserving key features.  
 🔹 **Region of Interest (ROI) Filtering** can limit processing to relevant areas in camera images, avoiding unnecessary computations.
 
-These enhancements will **improve efficiency, reduce latency, and maintain high accuracy**, making the system more reliable for real-time ADAS applications. 🚗💡
+These enhancements will **improve efficiency, reduce latency, and maintain high accuracy**, making the system more reliable for real-time ADAS applications. 
 
