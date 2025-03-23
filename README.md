@@ -54,11 +54,43 @@ pip install -r requirements.txt
    ```
 
 ## Results & Visualizations
-
 - Lane detection results are displayed with lane markings on road images.
 - Object detection results highlight detected objects with bounding boxes.
 - LiDAR data is visualized in 3D for better spatial understanding.
 - Collision warnings and alerts are triggered based on real-time sensor data.
+
+## **Improvements to Increase Efficiency **
+
+### **1. Sensor Fusion Optimization**
+**Current Issue:**  
+Individual sensors (LiDAR, Radar, Camera) provide separate data, which may introduce latency or inconsistencies.
+
+**Improvement:**  
+🔹 Implement **Kalman Filtering** or **Bayesian Filtering** to fuse sensor data more effectively.  
+🔹 This will help reduce noise, enhance accuracy, and improve real-time object detection.
+
+---
+
+### **2. Model Acceleration & Optimization**
+**Current Issue:**  
+YOLOv8 may introduce latency in real-time applications due to high computational requirements.
+
+**Improvement:**  
+🔹 Utilize **TensorRT** or **ONNX Runtime** for deep learning model optimization.  
+🔹 This will accelerate inference speed on GPUs, significantly reducing prediction time.
+
+---
+
+### **3. Adaptive Data Sampling & Processing**
+**Current Issue:**  
+Processing full-frame LiDAR point clouds or high-resolution images slows down prediction speed.
+
+**Improvement:**  
+🔹 **Voxelization** can be used to reduce LiDAR point cloud size while preserving key features.  
+🔹 **Region of Interest (ROI) Filtering** can limit processing to relevant areas in camera images, avoiding unnecessary computations.
+
+These enhancements will **improve efficiency, reduce latency, and maintain high accuracy**, making the system more reliable for real-time ADAS applications. 
+
 
 
 ---
